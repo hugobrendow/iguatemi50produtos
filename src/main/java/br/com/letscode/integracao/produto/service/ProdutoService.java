@@ -1,7 +1,7 @@
-package br.com.letscode.produto.service;
+package br.com.letscode.integracao.produto.service;
 
-import br.com.letscode.produto.entity.Produto;
-import br.com.letscode.produto.repository.ProdutoRepository;
+import br.com.letscode.integracao.produto.repository.ProdutoRepository;
+import br.com.letscode.integracao.produto.entity.Produto;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 

@@ -1,4 +1,4 @@
-package br.com.letscode.produto.entity;
+package br.com.letscode.integracao.produto.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

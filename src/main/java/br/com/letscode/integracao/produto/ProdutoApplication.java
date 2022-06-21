@@ -1,4 +1,4 @@
-package br.com.letscode.produto;
+package br.com.letscode.integracao.produto;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

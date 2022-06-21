@@ -1,8 +1,8 @@
-package br.com.letscode.produto;
+package br.com.letscode.integracao.produto;
 
-import br.com.letscode.produto.controller.ProdutoController;
-import br.com.letscode.produto.entity.Produto;
-import br.com.letscode.produto.service.ProdutoService;
+import br.com.letscode.integracao.produto.controller.ProdutoController;
+import br.com.letscode.integracao.produto.entity.Produto;
+import br.com.letscode.integracao.produto.service.ProdutoService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

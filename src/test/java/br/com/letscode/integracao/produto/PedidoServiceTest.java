@@ -1,7 +1,7 @@
-package br.com.letscode.produto;
+package br.com.letscode.integracao.produto;
 
-import br.com.letscode.produto.entity.Pedido;
-import br.com.letscode.produto.service.PedidoService;
+import br.com.letscode.integracao.produto.service.PedidoService;
+import br.com.letscode.integracao.produto.entity.Pedido;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
@@ -30,9 +30,8 @@ public class PedidoServiceTest {
     public void salvarPedidoComDesconto20Porcento() {
         Pedido pedido = getPedido();
         pedido.setValorTotal(520.00);
-        double desconto = 520.00 * 0.80;
         Pedido pedidoSalvo = pedidoService.salvarPedido(pedido);
-        assertEquals(pedidoSalvo.getValorTotal(), (520 - desconto));
+        assertEquals(pedidoSalvo.getValorTotal(), 428d);
     }
 
     @Test

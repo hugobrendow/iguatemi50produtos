@@ -1,8 +1,8 @@
-package br.com.letscode.produto;
+package br.com.letscode.integracao.produto;
 
-import br.com.letscode.produto.entity.Produto;
-import br.com.letscode.produto.repository.ProdutoRepository;
-import br.com.letscode.produto.service.ProdutoService;
+import br.com.letscode.integracao.produto.repository.ProdutoRepository;
+import br.com.letscode.integracao.produto.service.ProdutoService;
+import br.com.letscode.integracao.produto.entity.Produto;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

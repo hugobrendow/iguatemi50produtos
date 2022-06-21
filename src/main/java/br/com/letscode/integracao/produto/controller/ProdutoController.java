@@ -1,7 +1,7 @@
-package br.com.letscode.produto.controller;
+package br.com.letscode.integracao.produto.controller;
 
-import br.com.letscode.produto.entity.Produto;
-import br.com.letscode.produto.service.ProdutoService;
+import br.com.letscode.integracao.produto.entity.Produto;
+import br.com.letscode.integracao.produto.service.ProdutoService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

@@ -1,11 +1,11 @@
-package br.com.letscode.produto.service;
+package br.com.letscode.integracao.produto.service;
 
-import br.com.letscode.produto.entity.Pedido;
+import br.com.letscode.integracao.produto.entity.Pedido;
 import org.springframework.stereotype.Service;
 
 @Service
 public class PedidoService {
-    private final Double DESCONTO_ACIMA_500 = 0.80;
+    private final Double DESCONTO_ACIMA_500 = 0.20;
 
     public Pedido salvarPedido(Pedido pedido) {
         adicionaFrete(pedido);
